@@ -22,6 +22,14 @@ bool comp(ll a,ll b){
 
 void solve(){
     ll n,m;
+    cin>>n>>m;
+    cout<<__gcd(n,m);
+    while(n>m){
+            if(n%2==0)
+                        cout<<2<<" ";
+            n/=2;
+    }
+    cout<<"close";
     
 }
 
